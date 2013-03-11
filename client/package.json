@@ -1,0 +1,36 @@
+{
+  "author": "Catherine Tan",
+  "name": "coppio",
+  "version": "0.0.1",
+  "homepage": "",
+  "engines": {
+    "node": "0.8.x",
+    "npm":  "1.1.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "brunch watch --server",
+    "test": "brunch test"
+  },
+  "dependencies": {
+    "express" : "*",
+    "brunch": "*",
+    "coffee-script-brunch": "*",
+
+    "css-brunch": "*",
+    "stylus-brunch": "*",
+
+    "jade-brunch": "*",
+
+    "uglify-js-brunch": "*",
+    "clean-css-brunch": "*"
+  },
+  "devDependencies": {
+    "chai": "1.2.0",
+    "sinon": "1.4.2",
+    "sinon-chai": "2.1.2"
+  }
+}

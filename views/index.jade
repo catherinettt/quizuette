@@ -1,0 +1,24 @@
+html
+  head
+    script(type="text/javascript", src="./app/javascripts/vendor.js")
+    script(type="text/javascript", src="./app/javascripts/app.js")
+    script
+      require('initialize')
+    link(rel="stylesheet", type="text/css", href="./app/stylesheets/app.css")
+
+  body
+    //- div(kb-inject="ApplicationViewModel")
+    //-   div(data-bind="template: 'views/header'")
+    //-   div(data-bind="template: 'views/application'")
+    h1 Quizuette!
+
+  script
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-39179352-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
